@@ -9,7 +9,7 @@ const routes: Routes = [
     children: [
       {
         path: 'films',
-        children: [
+        children: [  
           {
             path: '',
             loadChildren: '../films/films.module#FilmsPageModule'
