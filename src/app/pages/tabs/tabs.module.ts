@@ -8,8 +8,6 @@ import { TabsPage } from './tabs.page';
 
 import { TabsPageRoutingModule } from './tabs.router.module';
 
-
-
 @NgModule({
   imports: [
     CommonModule,
